@@ -18,7 +18,9 @@ namespace Assets.Scripts.Infrastructure
             Leopotam.Ecs.UnityIntegration.EcsSystemsObserver.Create(_systems);
 #endif
 
-            _systems.Init();
+            _systems
+                .Add(new DemoSystem())
+                .Init();
         }
 
         void Update()
