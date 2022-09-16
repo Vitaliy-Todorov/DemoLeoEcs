@@ -1,6 +1,5 @@
 ﻿using Assets.Scripts.Components;
 using Leopotam.Ecs;
-using System;
 using UnityEngine;
 using Object = UnityEngine.Object;
 
