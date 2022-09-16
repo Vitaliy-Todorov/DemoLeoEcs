@@ -7,27 +7,27 @@ namespace Assets.Scripts
     {
         public void PreInit()
         {
-            Debug.Log("PreInitSystem");
+            // Debug.Log("PreInitSystem");
         }
 
         public void Init()
         {
-            Debug.Log("InitSystem");
+            // Debug.Log("InitSystem");
         }
 
         public void Run()
         {
-            Debug.Log("RunSystem");
+            // Debug.Log("RunSystem");
         }
 
         public void Destroy()
         {
-            Debug.Log("DestroySystem");
+            // Debug.Log("DestroySystem");
         }
 
         public void PostDestroy()
         {
-            Debug.Log("PostDestroySystem");
+            // Debug.Log("PostDestroySystem");
         }
     }
 }
